@@ -5,9 +5,9 @@
         static void Main(string[] args)
         {
 
-            int selecao;
-            double primeiroNumero;
-            double segundoNumero;
+            int operacao;
+            double num1;
+            double num2;
 
             Console.WriteLine("Digite o primeiro número: ");
             primeiroNumero = Convert.ToDouble(Console.ReadLine());
@@ -15,9 +15,9 @@
             Console.WriteLine("Digite o segundo número: ");
             segundoNumero = Convert.ToDouble(Console.ReadLine());
 
-            if (selecao == 3) { primeiroNumero* segundoNumero; }
+            if (operacao == 3) { num1* num2; }
 
-            if (selecao == 4) { primeiroNumero / segundoNumero; }
+            if (operacao == 4) { num1 / num2; }
 
 
         }
