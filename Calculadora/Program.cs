@@ -9,6 +9,10 @@
             double num1;
             double num2;
 
+            Console.WriteLine("Insira o número referente a operação: ");
+            operacao = Convert.ToInt32(Console.ReadLine());
+
+            
             Console.WriteLine("Digite o primeiro número: ");
             primeiroNumero = Convert.ToDouble(Console.ReadLine());
 
