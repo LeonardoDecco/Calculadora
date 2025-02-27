@@ -33,16 +33,15 @@ namespace Calculadora
              Console.WriteLine($"O resultado da subtração é: {resultado}");
             }
 
-
             if (operacao == 3)
             {
-                resultado = num1 * num2
-               Console.WriteLine($"O resultado da adição é: {resultado}");
+                resultado = num1 * num2;
+               Console.WriteLine($"O resultado da multiplicação é: {resultado}");
             }
             if (operacao == 4)
             {
-                resultado = num1 / num2
-             Console.WriteLine($"O resultado da subtração é: {resultado}");
+                resultado = num1 / num2;
+             Console.WriteLine($"O resultado da divisão é: {resultado}");
             }
     }
 
