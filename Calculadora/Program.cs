@@ -25,6 +25,18 @@ namespace Calculadora
             int resultado
 
 
+            if (escolha == 1)
+            {
+                resultado = num1 + num2
+               Console.WriteLine($"O resultado da adição é: {resultado}");
+            }
+            if (escolha == 2)
+            {
+                resultado = num1 - num2
+             Console.WriteLine($"O resultado da subtração é: {resultado}");
+            }
+
+
             if (escolha == 3)
             {
                 resultado = num1 * num2
@@ -36,7 +48,6 @@ namespace Calculadora
              Console.WriteLine($"O resultado da subtração é: {resultado}");
             }
     }
-
 
         }
     }
