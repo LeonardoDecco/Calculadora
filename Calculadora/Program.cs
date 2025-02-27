@@ -24,7 +24,7 @@
             if (escolha == 1)
             {
                 resultado = num1 + num2
-               Console.writeLine($"O resultado da adição é: {resultado}");
+               Console.WriteLine($"O resultado da adição é: {resultado}");
             }
             if (escolha == 2)
             {
