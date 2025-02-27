@@ -20,17 +20,16 @@ namespace Calculadora
             Console.WriteLine("Digite o segundo numero: ");
             int num2 = int.Parse(Console.ReadLine());
 
-            int resultado
-
+            int resultado;
 
             if (operacao == 1)
             {
-                resultado = num1 + num2
+                resultado = num1 + num2;
                Console.WriteLine($"O resultado da adição é: {resultado}");
             }
             if (operacao == 2)
             {
-                resultado = num1 - num2
+                resultado = num1 - num2;
              Console.WriteLine($"O resultado da subtração é: {resultado}");
             }
 
