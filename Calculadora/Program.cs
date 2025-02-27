@@ -13,8 +13,6 @@ namespace Calculadora
             Console.WriteLine("3 - Multiplicação");
             Console.WriteLine("4 - Divisão \n");
 
-            Console.ReadLine();
-
             int operacao = int.Parse(Console.ReadLine());
             Console.WriteLine("Digite o primeiro numero: ");
             int num1 = int.Parse(Console.ReadLine());
@@ -25,24 +23,24 @@ namespace Calculadora
             int resultado
 
 
-            if (escolha == 1)
+            if (operacao == 1)
             {
                 resultado = num1 + num2
                Console.WriteLine($"O resultado da adição é: {resultado}");
             }
-            if (escolha == 2)
+            if (operacao == 2)
             {
                 resultado = num1 - num2
              Console.WriteLine($"O resultado da subtração é: {resultado}");
             }
 
 
-            if (escolha == 3)
+            if (operacao == 3)
             {
                 resultado = num1 * num2
                Console.WriteLine($"O resultado da adição é: {resultado}");
             }
-            if (escolha == 4)
+            if (operacao == 4)
             {
                 resultado = num1 / num2
              Console.WriteLine($"O resultado da subtração é: {resultado}");
