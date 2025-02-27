@@ -10,14 +10,14 @@
             double num2;
 
             Console.WriteLine("Insira o número referente a operação: ");
-            int operacao = int.Parse(Console.ReadLine());
+            int operacao = Console.ReadLine();
 
 
             Console.WriteLine("Digite o primeiro número: ");
-            double num1 = int.Parse(Console.ReadLine());
+            double num1 = Console.ReadLine();
 
             Console.WriteLine("Digite o segundo número: ");
-            double num2 = int.Parse(Console.ReadLine());
+            double num2 = Console.ReadLine();
 
             if (operacao == 3) {"O resultado da multiplicação é igual a "+num1*num2; }
 
