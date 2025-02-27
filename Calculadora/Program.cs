@@ -10,14 +10,14 @@
             double num2;
 
             Console.WriteLine("Insira o número referente a operação: ");
-            operacao = Convert.ToInt32(Console.ReadLine());
+            int operacao = Convert.ToInt32(Console.ReadLine());
 
             
             Console.WriteLine("Digite o primeiro número: ");
-            primeiroNumero = Convert.ToDouble(Console.ReadLine());
+            double num1 = Convert.ToDouble(Console.ReadLine());
 
             Console.WriteLine("Digite o segundo número: ");
-            segundoNumero = Convert.ToDouble(Console.ReadLine());
+            double num2 = Convert.ToDouble(Console.ReadLine());
 
             if (operacao == 3) { num1* num2; }
 
