@@ -1,9 +1,12 @@
-﻿namespace Calculadora
+using System;
+
+namespace Calculadora
 {
     internal class Program
     {
         static void Main(string[] args)
         {
+
             Console.WriteLine("Olá, qual operação deseja calcular: ");
             Console.WriteLine("1 - Adição");
             Console.WriteLine("2 - Subtração");
@@ -21,6 +24,7 @@
 
             int resultado
 
+
             if (escolha == 1)
             {
                 resultado = num1 + num2
@@ -31,6 +35,21 @@
                 resultado = num1 - num2
              Console.WriteLine($"O resultado da subtração é: {resultado}");
             }
+
+
+            if (escolha == 3)
+            {
+                resultado = num1 * num2
+               Console.WriteLine($"O resultado da adição é: {resultado}");
+            }
+            if (escolha == 4)
+            {
+                resultado = num1 / num2
+             Console.WriteLine($"O resultado da subtração é: {resultado}");
+            }
+    }
+
         }
     }
 }
+
