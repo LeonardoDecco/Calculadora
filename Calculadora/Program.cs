@@ -19,9 +19,9 @@
             Console.WriteLine("Digite o segundo número: ");
             double num2 = Convert.ToDouble(Console.ReadLine());
 
-            if (operacao == 3) { num1* num2; }
+            if (operacao == 3) {"O resultado da multiplicação é igual a "+num1*num2; }
 
-            if (operacao == 4) { num1 / num2; }
+            if (operacao == 4) {"O resultado da divisão é igual a "+num1/num2; }
 
 
         }
