@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace Calculadora
 {
@@ -24,6 +24,7 @@ namespace Calculadora
 
             int resultado
 
+
             if (escolha == 3)
             {
                 resultado = num1 * num2
@@ -35,3 +36,9 @@ namespace Calculadora
              Console.WriteLine($"O resultado da subtração é: {resultado}");
             }
     }
+
+
+        }
+    }
+}
+
